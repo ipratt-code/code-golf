@@ -19,7 +19,6 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("%v\n", n)
 	for i := 0; i < len(n); i++ {
 		for h := 0; h < len(n[i]); h++ {
 			for k := 0; k < len(n[i])-1; k++ {
@@ -32,4 +31,5 @@ func main() {
 		}
 	}
 	fmt.Printf("%v\n", n)
+
 }
